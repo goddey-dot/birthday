@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Austra ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#09070d;
+color:white;
+overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+nav{
+
+position:fixed;
+
+top:0;
+
+width:100%;
+
+padding:18px 50px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+background:rgba(0,0,0,.4);
+
+backdrop-filter:blur(15px);
+
+z-index:999;
+
+}
+
+.logo{
+
+font-size:35px;
+
+font-family:"Great Vibes",cursive;
+
+color:#ff74a5;
+
+}
+
+nav ul{
+
+display:flex;
+
+list-style:none;
+
+gap:30px;
+
+}
+
+nav ul li a{
+
+color:white;
+
+text-decoration:none;
+
+transition:.4s;
+
+}
+
+nav ul li a:hover{
+
+color:#ff74a5;
+
+}
+
+/* HERO */
+
+.hero{
+
+position:relative;
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+overflow:hidden;
+
+}
+
+.hero img{
+
+position:absolute;
+
+width:100%;
+
+height:100%;
+
+object-fit:cover;
+
+filter:brightness(.35);
+
+}
+
+.overlay{
+
+position:relative;
+
+text-align:center;
+
+z-index:5;
+
+max-width:800px;
+
+padding:20px;
+
+}
+
+.overlay h3{
+
+font-size:35px;
+
+font-family:"Great Vibes",cursive;
+
+color:#ff92bd;
+
+}
+
+.overlay h1{
+
+font-size:75px;
+
+margin:15px 0;
+
+}
+
+.overlay p{
+
+font-size:19px;
+
+line-height:1.8;
+
+margin-top:20px;
+
+}
+
+button{
+
+margin-top:35px;
+
+padding:15px 40px;
+
+border:none;
+
+border-radius:50px;
+
+background:#ff4d88;
+
+color:white;
+
+font-size:18px;
+
+cursor:pointer;
+
+transition:.4s;
+
+}
+
+button:hover{
+
+background:#ff77aa;
+
+transform:scale(1.08);
+
+box-shadow:0 0 25px hotpink;
+
+}
+
+/* SECTION */
+
+section{
+
+padding:120px 10%;
+
+}
+
+.title{
+
+font-size:55px;
+
+text-align:center;
+
+margin-bottom:50px;
+
+font-family:"Great Vibes",cursive;
+
+color:#ff9fc7;
+
+}
+
+/* GALLERY */
+
+.gallery{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
+}
+
+.gallery img{
+
+width:100%;
+
+height:450px;
+
+object-fit:cover;
+
+border-radius:25px;
+
+transition:.5s;
+
+box-shadow:0 0 20px rgba(255,105,180,.2);
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+/* CARD */
+
+.card{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(12px);
+
+padding:40px;
+
+border-radius:20px;
+
+line-height:2;
+
+font-size:18px;
+
+box-shadow:0 10px 35px rgba(255,105,180,.2);
+
+}
+
+/* CAKE */
+
+.cake{
+
+font-size:160px;
+
+text-align:center;
+
+animation:bounce 2s infinite;
+
+}
+
+@keyframes bounce{
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+}
+
+/* HEARTS */
+
+.heart{
+
+position:fixed;
+
+top:-20px;
+
+color:#ff5b93;
+
+animation:fall linear infinite;
+
+pointer-events:none;
+
+}
+
+@keyframes fall{
+
+100%{
+
+transform:translateY(110vh) rotate(360deg);
+
+opacity:0;
+
+}
+
+}
+
+footer{
+
+padding:80px;
+
+text-align:center;
+
+font-size:22px;
+
+background:#150d1d;
+
+}
+
+@media(max-width:768px){
+
+.overlay h1{
+
+font-size:48px;
+
+}
+
+nav{
+
+padding:15px;
+
+}
+
+nav ul{
+
+gap:15px;
+
+font-size:13px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">
+
+❤️ Austra
+
+</div>
+
+<ul>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#letter">Letter</a></li>
+
+<li><a href="#birthday">Birthday</a></li>
+
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<img src="hero.jpg">
+
+<div class="overlay">
+
+<h3>Happy Birthday</h3>
+
+<h1>AUSTRA ❤️</h1>
+
+<p>
+
+Today is the day a truly beautiful soul was born.
+
+Thank you for bringing smiles, happiness and warmth wherever you go.
+
+May this birthday bring you endless love, laughter, peace, success and every blessing your heart desires.
+
+</p>
+
+<a href="#gallery">
+
+<button>
+
+Start Reading ❤️
+
+</button>
+
+</a>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2 class="title">
+
+Beautiful Memories
+
+</h2>
+
+<div class="gallery">
+
+<img src="c:\Users\godey\Pictures\IMG-20260325-WA0143.jpg">
+
+<img src="c:\Users\godey\Pictures\IMG-20260503-WA0049.jpg">
+
+<img src="c:\Users\godey\Pictures\IMG-20260328-WA0093(1).jpg">
+
+</div>
+
+</section>
+
+<section id="letter">
+
+<h2 class="title">
+
+A Letter To My Queen
+
+</h2>
+
+<div class="card">
+
+Dear Austra,
+
+Happy Birthday to one of the most amazing people I have ever known.
+
+You deserve every smile, every blessing, every opportunity and every beautiful thing life has to offer.
+
+May God continue to guide your steps, protect your heart and bless every dream you have.
+
+Thank you for being kind, beautiful, strong and inspiring.
+
+I hope this new chapter of your life is filled with unforgettable memories, laughter that never ends and love that grows every single day.
+
+Whenever life becomes difficult, remember how incredible you are.
+
+Never stop believing in yourself.
+
+Never stop smiling.
+
+Never stop shining.
+
+You deserve the best.
+
+Happy Birthday once again.
+
+❤️
+
+</div>
+
+</section>
+
+<section id="birthday">
+
+<h2 class="title">
+
+Make A Birthday Wish
+
+</h2>
+
+<div class="cake">
+
+🎂
+
+</div>
+
+<center>
+
+<button onclick="wish()">
+
+Open My Heart ❤️
+
+</button>
+
+</center>
+
+</section>
+
+<footer>
+
+Forever wishing you happiness.
+
+Happy Birthday Austra ❤️
+
+</footer>
+
+<script>
+
+function wish(){
+
+alert(`
+
+Happy Birthday Austra ❤️
+
+May your heart always know peace.
+
+May your dreams become reality.
+
+May your smile never fade.
+
+May this new year bring you countless blessings.
+
+Enjoy every beautiful moment today.
+
+❤️❤️❤️
+
+`);
+
+}
+
+const hearts=["❤️","💖","💕","💗","💘"];
+
+function createHeart(){
+
+let heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML=hearts[Math.floor(Math.random()*hearts.length)];
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.fontSize=(15+Math.random()*25)+"px";
+
+heart.style.animationDuration=(5+Math.random()*6)+"s";
+
+document.body.appendChild(heart);
+
+setTimeout(()=>{
+
+heart.remove();
+
+},10000);
+
+}
+
+setInterval(createHeart,300);
+
+</script>
+
+</body>
+
+</html>
